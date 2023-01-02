@@ -29,7 +29,7 @@ export default function Document() {
         <meta name="twitter:description" content="Delivering quality products to blockchain customers globally" />
 
       </Head>
-      <body>
+      <body css={{ margin: 0 }}>
         <Main />
         <NextScript />
       </body>

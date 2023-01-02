@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import BaseThemeProvider from '../providers/BaseThemeProvider'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -8,7 +9,9 @@ function MyApp({ Component, pageProps }) {
         <title>CZODIAC | Blockchain Products Delivered Globally</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <Component {...pageProps} />
+      <BaseThemeProvider>
+        <Component {...pageProps} />
+      </BaseThemeProvider>
     </>
   )
 }

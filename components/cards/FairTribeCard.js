@@ -24,7 +24,7 @@ export default function FairTribeCard({ linkSite, linkChat, linkChart, linkTrade
                     />
                 </ButtonPrimary>)}
                 <div css={{ display: "inline-block", margin: "0", padding: "0" }}>
-                    <a href={linkChat} target="_blank" css={{ position: "relative", top: 14, marginLeft: (!!linkSite ? 10 : 0) }}>
+                    <a href={linkChat} target="_blank" rel="noreferrer" css={{ position: "relative", top: 14, marginLeft: (!!linkSite ? 10 : 0) }}>
                         <Image
                             src="/images/icons/TG-Red-Circle.svg"
                             alt={ticker + " Chat"}
@@ -33,7 +33,7 @@ export default function FairTribeCard({ linkSite, linkChat, linkChart, linkTrade
                             priority
                         />
                     </a>
-                    <a href={linkChart} target="_blank" css={{ position: "relative", top: 14, marginLeft: 10 }}>
+                    <a href={linkChart} target="_blank" rel="noreferrer" css={{ position: "relative", top: 14, marginLeft: 10 }}>
                         <Image
                             src="/images/icons/Chart-Red-Circle.svg"
                             alt={ticker + " Chart"}
@@ -42,7 +42,7 @@ export default function FairTribeCard({ linkSite, linkChat, linkChart, linkTrade
                             priority
                         />
                     </a>
-                    <a href={linkTrade} target="_blank" css={{ position: "relative", top: 14, marginLeft: 10 }}>
+                    <a href={linkTrade} target="_blank" rel="noreferrer" css={{ position: "relative", top: 14, marginLeft: 10 }}>
                         <Image
                             src="/images/icons/Buy-Red-Circle.svg"
                             alt={"Buy " + ticker}

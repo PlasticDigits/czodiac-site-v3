@@ -7,7 +7,7 @@ const StatsItem = ({ label, value, href }) => {
     const bp = theme.breakpoints.values;
     const mq = bp => `@media (min-width: ${bp}px)`;
     return (<div css={{ [mq(bp.xs)]: { textAlign: "center" }, [mq(bp.lg)]: { textAlign: "left" } }}>
-        <a css={{ color: theme.palette.common.white, textDecoration: "none", fontWeight: "bold", '&:hover': { textDecoration: "underline" } }} href={href} target="_blank">
+        <a css={{ color: theme.palette.common.white, textDecoration: "none", fontWeight: "bold", '&:hover': { textDecoration: "underline" } }} href={href} target="_blank" rel="noreferrer">
             {label} <Image
                 src="/images/icons/LinkOut.svg"
                 alt="external link"

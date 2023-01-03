@@ -5,7 +5,7 @@ export default function ButtonPrimary(props) {
     return (
         <Button
             variant='contained'
-            target="_blank"
+            target="_blank" rel="noreferrer"
             disableElevation
             css={{ borderRadius: 20, textTransform: "none", fontSize: "16px" }}
             {...props}>{props?.children}</Button>)

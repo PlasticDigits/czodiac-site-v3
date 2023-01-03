@@ -17,7 +17,7 @@ export default function Mission() {
             <Container >
                 <Grid2 container justifyContent="center" alignItems="center" rowSpacing={1} columnSpacing={3} maxWidth={1440}
                     css={{
-                        minHeight: "80vh",
+                        minHeight: 1000,
                         paddingBottom: 100,
                         [mq(bp.xs)]: { flexDirection: "column-reverse" }, [mq(bp.sm)]: { flexDirection: "row" }
                     }}>

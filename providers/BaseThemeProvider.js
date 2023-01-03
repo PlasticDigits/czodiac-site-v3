@@ -2,7 +2,7 @@ import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@mui/system';
 
 
-export default function BaseThemeProvider({children}) {
+export default function BaseThemeProvider({ children }) {
     const theme = createTheme({
         palette: {
             primary: {
@@ -12,6 +12,10 @@ export default function BaseThemeProvider({children}) {
             },
             secondary: {
                 main: '#0044ff',
+            },
+            common: {
+                black: '#3F3836',
+                white: '#F5F5F5'
             },
             // Used by `getContrastText()` to maximize the contrast between
             // the background and the text.
@@ -23,5 +27,5 @@ export default function BaseThemeProvider({children}) {
         },
     });
 
-    return(<ThemeProvider theme={theme}>{children}</ThemeProvider> )
+    return (<ThemeProvider theme={theme}>{children}</ThemeProvider>)
 } 

@@ -1,6 +1,5 @@
 import Image from 'next/image'
-import { Open_Sans } from '@next/font/google'
-import { Box, Button, Container, Stack, useTheme } from '@mui/material';
+import { Box, Container, Stack, useTheme } from '@mui/material';
 import Grid2 from '@mui/material/Unstable_Grid2';
 import MenuLink from '../styled/MenuLink';
 import MenuLinkSocialIcon from '../styled/MenuLinkSocialIcon';

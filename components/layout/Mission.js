@@ -1,9 +1,6 @@
 import Image from 'next/image'
-import { Open_Sans } from '@next/font/google'
-import { Box, Button, Container, Stack, useTheme } from '@mui/material';
+import { Box, Container, useTheme } from '@mui/material';
 import Grid2 from '@mui/material/Unstable_Grid2';
-import MenuLink from '../styled/MenuLink';
-import MenuLinkSocialIcon from '../styled/MenuLinkSocialIcon';
 import ButtonPrimary from '../styled/ButtonPrimary';
 
 
@@ -35,7 +32,7 @@ export default function Mission() {
                             [mq(bp.xs)]: { fontSize: 28 },
                             [mq(bp.md)]: { fontSize: 40 },
                             [mq(bp.lg)]: { fontSize: 64 }
-                        }}>Delivering quality products to blockchain customers globally.</p>
+                        }}>We deliver quality products to blockchain customers globally.</p>
                         <ButtonPrimary css={{ margin: 15 }} href="https://cz.cash/#/swap?inputCurrency=BNB&outputCurrency=0x5cd0c2C744caF04cda258Efc6558A3Ed3defE97b" >Trade on CZ.CASH</ButtonPrimary>
                         <ButtonPrimary css={{ margin: 15 }} href="https://cz.farm" >Stake on CZ.FARM</ButtonPrimary>
                     </Grid2>

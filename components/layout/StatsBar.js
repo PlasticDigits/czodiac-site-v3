@@ -1,6 +1,5 @@
 import Image from 'next/image'
-import { Open_Sans } from '@next/font/google'
-import { Box, Button, Container, Stack, useTheme } from '@mui/material';
+import { Box, Container, useTheme } from '@mui/material';
 import Grid2 from '@mui/material/Unstable_Grid2';
 
 const StatsItem = ({ label, value, href }) => {
@@ -8,7 +7,7 @@ const StatsItem = ({ label, value, href }) => {
     const bp = theme.breakpoints.values;
     const mq = bp => `@media (min-width: ${bp}px)`;
     return (<div css={{ [mq(bp.xs)]: { textAlign: "center" }, [mq(bp.lg)]: { textAlign: "left" } }}>
-        <a css={{ color: theme.palette.common.white, textDecoration: "none", fontWeight: "bold", '&:hover': { textDecoration: "underline" } }} href={href}>
+        <a css={{ color: theme.palette.common.white, textDecoration: "none", fontWeight: "bold", '&:hover': { textDecoration: "underline" } }} href={href} target="_blank">
             {label} <Image
                 src="/images/icons/LinkOut.svg"
                 alt="external link"
@@ -30,7 +29,7 @@ export default function StatsBar() {
             padding: 0,
             width: '100%'
         }}>
-            <Container>
+            <Container css={{ paddingTop: 45, paddingBottom: 35 }}>
                 <Grid2 container
                     justifyContent="center" alignItems="center" rowSpacing={6} columnSpacing={2} maxWidth={1440}>
                     <Grid2 item xs={12} sm={6} md={4} lg={2}>

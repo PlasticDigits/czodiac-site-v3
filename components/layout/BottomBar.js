@@ -69,7 +69,7 @@ export default function BottomBar() {
                     </Grid2>
                     <Grid2 item xs={12}>
                         <h3 css={{ color: "#702624", fontSize: 18, fontWeight: 600 }}>Legal Disclaimer</h3>
-                        <p css={{ color: "#702624", fontSize: 14, fontWeight: 400 }}>
+                        <p css={{ fontSize: 14, fontWeight: 400 }}>
                             Nothing on this site or on related channels should be considered a promise by anyone,
                             including but not limited to the developers and promoters of this site,
                             to perform work to generate profits for anyone including but not limited to the following:
@@ -83,7 +83,7 @@ export default function BottomBar() {
                     </Grid2>
                     <Grid2 item xs={12}>
                         <h3 css={{ color: "#702624", fontSize: 18, fontWeight: 600 }}>Contact</h3>
-                        <p css={{ color: "#702624", fontSize: 14, fontWeight: 400 }}>
+                        <p css={{ fontSize: 14, fontWeight: 400 }}>
                             team@czodiac.com
                         </p>
                         <ButtonPrimary href="https://czodiac.gitbook.io/czodiac-litepaper/"

@@ -36,7 +36,7 @@ export default function Roadmap() {
         }}>
             <Container >
                 <h2 css={{ fontSize: 40, fontWeight: 'bold', color: theme.palette.common.white, textAlign: "center", paddingTop: 110, zIndex: 1, position: "relative" }}>
-                    Maximize Returns With Tested DeFi Tools.
+                    Grow With Our New Technology And Roadmap.
                 </h2>
                 <Grid2 container justifyContent="center" alignItems="stretch" rowSpacing={3} columnSpacing={3} maxWidth={1440}
                     css={{

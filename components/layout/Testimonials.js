@@ -18,7 +18,7 @@ export default function Testimonials() {
             width: '100%',
         }}>
             <Container >
-                <h2 css={{ fontSize: 40, fontWeight: 'bold', textAlign: "left", paddingTop: 80 }}>
+                <h2 css={{ fontSize: 40, fontWeight: 'bold', textAlign: "left", [mq(bp.xs)]: { paddingTop: 20 }, [mq(bp.md)]: { paddingTop: 80 } }}>
                     Loved By Thousands Around The Globe.
                 </h2>
                 <Grid2 container justifyContent="center" alignItems="stretch" rowSpacing={8} columnSpacing={4} maxWidth={1440}
@@ -47,7 +47,7 @@ export default function Testimonials() {
                             testimonial="I'm mike, I've been in czred for over a year. The people here in czred are very nice and kind. We have love and unity, it's like we're a family. If you want to become a millionaire here in czred, just hold here and you will become a millionaire."
                         />
                     </Grid2>
-                    <Grid2 item xs={0} sm={3} lg={2} >
+                    <Grid2 item xs={0} sm={3} lg={2} css={{ marginTop: -64 }}>
                         <Box />
                     </Grid2>
                     <Grid2 item xs={12} sm={6} lg={4} >

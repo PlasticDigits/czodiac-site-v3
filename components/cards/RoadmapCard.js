@@ -24,7 +24,7 @@ export default function RoadmapCard({ iconSrc, title, description }) {
             <p css={{ color: "#AF3532", fontWeight: 'bold', fontSize: 22, margin: 0, [mq(bp.md)]: { fontSize: 32 } }}>
                 {title}
             </p>
-            <p css={{ fontSize: 16, marginLeft: 'auto', marginRight: 'auto', maxWidth: '80%', marginTop: 5, [mq(bp.md)]: { fontSize: 18, marginTop: 10 } }} >
+            <p css={{ fontSize: 16, marginLeft: 'auto', marginRight: 'auto', maxWidth: '80%', marginTop: 15, [mq(bp.md)]: { fontSize: 18, marginTop: 10 } }} >
                 {description}
             </p>
         </Box>)

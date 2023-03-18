@@ -1,6 +1,6 @@
-import Image from 'next/image'
 import { Box, Container, Stack, useTheme } from '@mui/material';
 import Grid2 from '@mui/material/Unstable_Grid2';
+import Image from 'next/image';
 import ButtonPrimary from '../styled/ButtonPrimary';
 import MenuLinkSocialIcon from '../styled/MenuLinkSocialIcon';
 
@@ -84,6 +84,7 @@ export default function BottomBar() {
                     <Grid2 item xs={12}>
                         <h3 css={{ color: "#702624", fontSize: 18, fontWeight: 600 }}>Contact</h3>
                         <p css={{ fontSize: 14, fontWeight: 400 }}>
+                            official@czodiac.com,<br />
                             team@czodiac.com
                         </p>
                         <ButtonPrimary href="https://czodiac.gitbook.io/czodiac-litepaper/"

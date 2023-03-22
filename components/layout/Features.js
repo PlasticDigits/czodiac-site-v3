@@ -1,10 +1,5 @@
-import Image from 'next/image'
-import { Open_Sans } from '@next/font/google'
-import { Box, Button, Container, Stack, useTheme } from '@mui/material';
+import { Box, Container, useTheme } from '@mui/material';
 import Grid2 from '@mui/material/Unstable_Grid2';
-import MenuLink from '../styled/MenuLink';
-import MenuLinkSocialIcon from '../styled/MenuLinkSocialIcon';
-import ButtonPrimary from '../styled/ButtonPrimary';
 import FeatureCard from '../cards/FeatureCard';
 
 
@@ -65,7 +60,7 @@ export default function Features() {
                             title="FairTribe"
                             description="CZUSD liquidity investments supporting marketing tokens for new product launches."
                             linkLabel="Join the FairTribe Chatroom"
-                            link="https://t.me/FairTribe"
+                            link="https://t.me/CzodiacFairtribe"
                         />
                     </Grid2>
                     <Grid2 item xs={12} sm={6} lg={4} >

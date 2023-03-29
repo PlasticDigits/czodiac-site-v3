@@ -68,6 +68,12 @@ export default function BottomBar() {
                         </Stack>
                     </Grid2>
                     <Grid2 item xs={12}>
+                        <h3 css={{ color: "#702624", fontSize: 36, fontWeight: 600 }}>Persons under US Jurisdiction must not use CZODIAC dapps, tokens, or services.</h3>
+                        <p css={{ fontSize: 14, fontWeight: 400 }}>
+                            All persons under US jurisdiction must not use CZODIAC dapps, tokens, or services. It is your responsibility to determine if you are under US jurisdiction and remove yourself from the project as czodiac does not have the capability to do so.
+                        </p>
+                    </Grid2>
+                    <Grid2 item xs={12}>
                         <h3 css={{ color: "#702624", fontSize: 18, fontWeight: 600 }}>Legal Disclaimer</h3>
                         <p css={{ fontSize: 14, fontWeight: 400 }}>
                             Nothing on this site or on related channels should be considered a promise by anyone,

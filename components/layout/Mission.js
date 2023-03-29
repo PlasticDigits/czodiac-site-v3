@@ -1,6 +1,6 @@
-import Image from 'next/image'
 import { Box, Container, useTheme } from '@mui/material';
 import Grid2 from '@mui/material/Unstable_Grid2';
+import Image from 'next/image';
 import ButtonPrimary from '../styled/ButtonPrimary';
 
 
@@ -51,7 +51,8 @@ export default function Mission() {
                     </Grid2>
                 </Grid2>
             </Container>
-
+            <h1 style={{ maxWidth: '720px', color: 'white', marginLeft: 'auto', marginRight: 'auto', padding: '15px' }}>IMPORTANT NOTICE: Persons under US Jurisdiction must not use CZODIAC dapps, tokens, or services.</h1>
+            <br /><br />
         </Box >
     )
 }

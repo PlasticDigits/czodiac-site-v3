@@ -83,7 +83,7 @@ export default function FairTribes() {
                             srcLogo="/images/fairtribes/BRAG.png"
                             name="Raging Bull"
                             ticker="BRAG"
-                            descriptionLine1="Unique NFT DAO governance and"
+                            descriptionLine1="NFT DAO governance and"
                             descriptionLine2="lucrative Bitcoin rewards."
                         />
                     </Grid2>

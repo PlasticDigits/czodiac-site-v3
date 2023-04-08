@@ -27,8 +27,8 @@ export default function FairTribes() {
                         <FairTribeCard
                             linkSite="https://rafalovichcoins.com/nfts"
                             linkChat="https://t.me/rafalovichcoins"
-                            linkChart="https://www.geckoterminal.com/bsc/pools/0x1a067ffce2ae6ae395d6508891cae339639f1c0a"
-                            linkTrade="https://cz.cash/#/swap?inputCurrency=BNB&outputCurrency=0xd9a255f79d7970a3ed4d81eef82b054b0a21ecf8"
+                            linkChart="https://www.geckoterminal.com/bsc/pools/0xa98f8b669790b1063c0db3a03a9ecfe4ce602bee"
+                            linkTrade="https://cz.cash/#/swap?inputCurrency=BNB&outputCurrency=0xAa83Bb1Be2a74AaA8795a8887054919A0Ea96BFA"
                             srcLogo="/images/fairtribes/lsdt.png"
                             name="CZ Numismatics"
                             ticker="LSDT"
@@ -72,6 +72,19 @@ export default function FairTribes() {
                             ticker="LRT"
                             descriptionLine1="Hold LRT to get access to unique "
                             descriptionLine2="cz.farm pools and win NFTs."
+                        />
+                    </Grid2>
+                    <Grid2 item xs={12} sm={6} >
+                        <FairTribeCard
+                            linkSite="https://bragbull.com/"
+                            linkChat="https://t.me/RagingBullNetwork"
+                            linkChart="https://www.geckoterminal.com/bsc/pools/0x2b8c51720d5e007163bf83f38c2a72e497f1fb48"
+                            linkTrade="https://cz.cash/#/swap?inputCurrency=BNB&outputCurrency=0x48c2bc3d0c63174b811ad4fa09b45cc039578adb"
+                            srcLogo="/images/fairtribes/BRAG.png"
+                            name="Raging Bull"
+                            ticker="BRAG"
+                            descriptionLine1="Unique NFT DAO governance and"
+                            descriptionLine2="lucrative Bitcoin rewards."
                         />
                     </Grid2>
                 </Grid2>

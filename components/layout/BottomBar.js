@@ -79,10 +79,10 @@ export default function BottomBar() {
                             Nothing on this site or on related channels should be considered a promise by anyone,
                             including but not limited to the developers and promoters of this site,
                             to perform work to generate profits for anyone including but not limited to the following:
-                            the users of this site; FairTribe community members; CZF holders; CZR hoders; CZUSD holders;
+                            the users of this site; FairTribe community members; CZB holders; CZR hoders; CZUSD holders;
                             or anyone using any of the sites, smart contracts, social media channels,
-                            and any other media or tech related to CZF, CZR, CZUSD, and CZodiac or any of the community members.
-                            CZodiac, CZF, CZR, CZUSD, czodiac.com, cz.cash, cz.farm, numis.cz.cash, and related technologies
+                            and any other media or tech related to CZB, CZR, CZUSD, and CZodiac or any of the community members.
+                            CZodiac, CZB, CZR, CZUSD, czodiac.com, cz.cash, cz.farm, numis.cz.cash, and related technologies
                             plus media are all experimental and must be used according to your personal financial situation and
                             risk profile. There are no guarantees of profits, but the smart contracts are guaranteed to perform as written on the BSC blockchain.
                         </p>

@@ -1,6 +1,6 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Head, Html, Main, NextScript } from 'next/document'
 
-const OpenGraphImg = "https://storageapi.fleek.one/plasticdigits-team-bucket/czodiac-site-v3/opengraph.png"
+const OpenGraphImg = "https://storageapi.fleek.one/plasticdigits-team-bucket/czodiac-site-v3/opengraph.jpg"
 
 export default function Document() {
   return (

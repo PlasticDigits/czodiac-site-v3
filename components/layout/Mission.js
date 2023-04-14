@@ -51,8 +51,6 @@ export default function Mission() {
                     </Grid2>
                 </Grid2>
             </Container>
-            <h1 style={{ maxWidth: '720px', color: 'white', marginLeft: 'auto', marginRight: 'auto', padding: '15px' }}>IMPORTANT NOTICE: Persons under US Jurisdiction must not use CZODIAC dapps, tokens, or services.</h1>
-            <br /><br />
         </Box >
     )
 }

@@ -4,6 +4,8 @@ import Image from 'next/image';
 import ButtonPrimary from '../styled/ButtonPrimary';
 import MenuLinkSocialIcon from '../styled/MenuLinkSocialIcon';
 
+export const LINK_TERMS_OF_USE = "https://czodiac.gitbook.io/czodiac-litepaper/terms-of-use";
+export const LINK_PRIVACY_POLICY = "https://czodiac.gitbook.io/czodiac-litepaper/privacy-policy";
 
 export default function BottomBar() {
     const theme = useTheme();
@@ -68,24 +70,60 @@ export default function BottomBar() {
                         </Stack>
                     </Grid2>
                     <Grid2 item xs={12}>
-                        <h3 css={{ color: "#702624", fontSize: 36, fontWeight: 600 }}>Persons under US Jurisdiction must not use CZODIAC dapps, tokens, or services.</h3>
-                        <p css={{ fontSize: 14, fontWeight: 400 }}>
-                            All persons under US jurisdiction must not use CZODIAC dapps, tokens, or services. It is your responsibility to determine if you are under US jurisdiction and remove yourself from the project as czodiac does not have the capability to do so.
+                        <h1 style={{ fontSize: "2em" }}>Terms of Use</h1>
+                        <p>
+                            By accessing any CZODIAC website, including but not limited to
+                            CZODIAC's decentralized applications and services, and engaging
+                            in any activities related to the CZODIAC ecosystem, including
+                            buying, selling, trading, holding CZODIAC tokens, or
+                            participating in the CZODIAC community, users acknowledge that
+                            they have read, understood, and agreed to be bound by the terms
+                            and conditions set forth in CZODIAC's Terms of Use. The Terms of
+                            Use, available at{' '}
+                            <a style={{ color: '#702624' }} href={LINK_TERMS_OF_USE}>
+                                {LINK_TERMS_OF_USE}
+                            </a>
+                            , constitute a legally binding agreement between users and
+                            CZODIAC, and users should review them carefully before engaging
+                            in any activities related to the CZODIAC ecosystem. If users do
+                            not agree to the terms and conditions set forth in the Terms of
+                            Use, they should not access or use CZODIAC's websites, dapps,
+                            tokens, or other offerings. By using any CZODIAC website, users
+                            represent and warrant that they have the legal capacity to enter
+                            into a binding agreement with CZODIAC and that they comply with
+                            all applicable laws and regulations.
+                            <br />
+                            <br />
+                            <a style={{ color: '#702624' }} href={LINK_TERMS_OF_USE}>
+                                LINK TO TERMS OF USE
+                            </a>
                         </p>
-                    </Grid2>
-                    <Grid2 item xs={12}>
-                        <h3 css={{ color: "#702624", fontSize: 18, fontWeight: 600 }}>Legal Disclaimer</h3>
-                        <p css={{ fontSize: 14, fontWeight: 400 }}>
-                            Nothing on this site or on related channels should be considered a promise by anyone,
-                            including but not limited to the developers and promoters of this site,
-                            to perform work to generate profits for anyone including but not limited to the following:
-                            the users of this site; FairTribe community members; CZB holders; CZR hoders; CZUSD holders;
-                            or anyone using any of the sites, smart contracts, social media channels,
-                            and any other media or tech related to CZB, CZR, CZUSD, and CZodiac or any of the community members.
-                            CZodiac, CZB, CZR, CZUSD, czodiac.com, cz.cash, cz.farm, numis.cz.cash, and related technologies
-                            plus media are all experimental and must be used according to your personal financial situation and
-                            risk profile. There are no guarantees of profits, but the smart contracts are guaranteed to perform as written on the BSC blockchain.
+                        <br />
+                        <h1 style={{ fontSize: "2em" }}>Privacy Policy</h1>
+                        <p>
+                            At CZODIAC, we are committed to protecting the privacy and
+                            personal information of our users. We encourage you to read our
+                            Privacy Policy, which can be found at{' '}
+                            <a style={{ color: '#702624' }} href={LINK_PRIVACY_POLICY}>
+                                {LINK_PRIVACY_POLICY}
+                            </a>
+                            . This policy outlines the types of personal information that
+                            CZODIAC may collect, the purposes for which this information is
+                            used, and the steps taken to ensure the security and
+                            confidentiality of your personal data. By using CZODIAC's
+                            websites or services, you acknowledge that you have read and
+                            understood our Privacy Policy and consent to the collection,
+                            use, and disclosure of your personal information as described
+                            therein. If you have any questions or concerns about our privacy
+                            practices, please contact us at team@czodiac.com.
+                            <br />
+                            <br />
+                            <a style={{ color: '#702624' }} href={LINK_PRIVACY_POLICY}>
+                                LINK TO PRIVACY POLICY
+                            </a>
                         </p>
+
+                        <br />
                     </Grid2>
                     <Grid2 item xs={12}>
                         <h3 css={{ color: "#702624", fontSize: 18, fontWeight: 600 }}>Contact</h3>

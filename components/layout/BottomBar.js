@@ -4,8 +4,8 @@ import Image from 'next/image';
 import ButtonPrimary from '../styled/ButtonPrimary';
 import MenuLinkSocialIcon from '../styled/MenuLinkSocialIcon';
 
-export const LINK_TERMS_OF_USE = "https://czodiac.gitbook.io/czodiac-litepaper/terms-of-use";
-export const LINK_PRIVACY_POLICY = "https://czodiac.gitbook.io/czodiac-litepaper/privacy-policy";
+export const LINK_TERMS_OF_USE = "https://docs.czodiac.com/czodiac-litepaper/terms-of-use";
+export const LINK_PRIVACY_POLICY = "https://ocs.czodiac.com/czodiac-litepaper/privacy-policy";
 
 export default function BottomBar() {
     const theme = useTheme();
@@ -131,7 +131,7 @@ export default function BottomBar() {
                             official@czodiac.com,<br />
                             team@czodiac.com
                         </p>
-                        <ButtonPrimary href="https://czodiac.gitbook.io/czodiac-litepaper/"
+                        <ButtonPrimary href="https://docs.czodiac.com"
                             css={{ marginTop: "15px !important", backgroundColor: "#AF3532", fontSize: 16, borderRadius: 10 }} >Whitepaper</ButtonPrimary>
                     </Grid2>
                     <Grid2 item xs={12}>

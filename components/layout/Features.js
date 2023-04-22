@@ -44,7 +44,7 @@ export default function Features() {
                             title="BurnPay"
                             description="Raising a deflationary token's price floor while generating new community rewards."
                             linkLabel="Learn more from our Whitepaper"
-                            link="https://czodiac.gitbook.io/czodiac-litepaper/features-active/fairtribe-productions/working-of-burn-pay"
+                            link="https://ocs.czodiac.com/czodiac-litepaper/features-active/fairtribe-productions/working-of-burn-pay"
                         />
                     </Grid2>
                     <Grid2 item xs={12} sm={6} lg={4} >

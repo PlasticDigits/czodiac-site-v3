@@ -24,7 +24,7 @@ export default function Czblue() {
                         <p css={{ fontSize: 20, textAlign: 'left' }}>
                             Arb Bots constantly<br />
                             burn the CZB supply.<br />
-                            <a href="https://docs.czodiac.com/czodiac-litepaper/tokens/blue-farms-czblue" target="_blank">learn more</a>
+                            <a href="https://docs.czodiac.com/czodiac-litepaper/tokens/blue-farms-czblue" target="_blank" rel="noreferrer">learn more</a>
                         </p>
                     </Grid2>
 
